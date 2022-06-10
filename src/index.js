@@ -19,6 +19,7 @@ app.use("/brands", brandsController);
 app.use("/products", productsController);
 app.use("/categories", categoriesController);
 
+
 app.listen(1234, async () => {
     try {
         await connect();
